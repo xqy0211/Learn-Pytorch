@@ -1,6 +1,6 @@
 本项目是学习入门Pytorch的造轮子，参考：https://github.com/yunjey/pytorch-tutorial
 # Learn-Pytorch
-1. pytorch-tutorial  
+**1. pytorch-tutorial**  
     - pytorch_basic：
     包括autograd的学习，tensor和numpy之间的转化，torchvision下载数据集，
     DataLoader新建loader对象，下载模型，fine-tune模型，保存模型
