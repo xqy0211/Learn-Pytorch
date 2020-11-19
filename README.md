@@ -1,6 +1,6 @@
 本项目是学习入门Pytorch的造轮子，参考：https://github.com/yunjey/pytorch-tutorial
 # Learn-Pytorch
-1. pytorch-tutorial 
+1. pytorch-tutorial  
     - pytorch_basic：
     包括autograd的学习，tensor和numpy之间的转化，torchvision下载数据集，
     DataLoader新建loader对象，下载模型，fine-tune模型，保存模型
@@ -12,3 +12,7 @@
     数据集为MNIST，通过神经网络（FC-FC的两层网络）进行分类，97.91%测试结果
     - convolutional_neural_network：
     数据集为MNIST，通过CNN（CONV-CONV-FC）进行分类，99.06%测试结果
+    - deep_residual_network：
+    数据集为CIFAR10，通过ResNet18进行分类，迭代约80个epochs，68.24%测试结果
+    - VGG_network:
+    数据集为CIFAR10，通过VGG-16进行分类，迭代约40个epochs，83.86%测试结果
