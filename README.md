@@ -26,4 +26,4 @@
     整个训练过程下来，(3x32x32)经过3次(layer1,2,3)的Conv和一次Pool(4)变为(512x1x1)。
     与原作不同的根本在于，原作是224x224的输入，因而每个layer都有尺度缩小，每个layer的第一个block都存在下采样。
 4. 结构图
-    - ResNet50.png/ResNet50_.png: ResNet50的结构图，在看维度有用
+    - (ResNet50.png)[https://github.com/xqy0211/Learn-Pytorch/blob/master/image/ResNet50.png]/ResNet50_.png]: ResNet50的结构图，在看维度有用
