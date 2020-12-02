@@ -22,8 +22,15 @@
     定义了两种block，实现ResNet（包括18、34、50、101、152）  
     - ResNet_train.ipynb：
     数据集为CIFAR10，通过ResNet18（4层：2,2,2,2）进行分类，迭代约6个epochs，75.21%测试结果  
+    ResNet50 GTX1050Ti爆内存了，哎...  
     尺寸缩小发生在每个layer的第一个block中的3x3Conv，下采样发生在除了第一个layer的每个layer的第一个block，
-    整个训练过程下来，(3x32x32)经过3次(layer1,2,3)的Conv和一次Pool(4)变为(512x1x1)。
+    整个训练过程下来，(3x32x32)经过3次(layer1,2,3)的Conv和一次Pool(4)变为(512x1x1)。  
     与原作不同的根本在于，原作是224x224的输入，因而每个layer都有尺度缩小，每个layer的第一个block都存在下采样。
 4. 结构图
     - ResNet50.png/ResNet50_.png: ResNet50的结构图，在看维度有用
+5. 其他自用工具
+    - json2vocxml.py：数据集地址：https://pan.baidu.com/s/1hoPNd7_SAxOWa2XbBZZuTg  
+    将PCB_DATASET的json标注文件改成VOC数据集格式的单个xml文件
+    
+
+    
