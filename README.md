@@ -27,3 +27,5 @@
     与原作不同的根本在于，原作是224x224的输入，因而每个layer都有尺度缩小，每个layer的第一个block都存在下采样。
 4. 结构图
     - ResNet50.png/ResNet50_.png: ResNet50的结构图，在看维度有用
+5. 其他工具
+    - json2vocxml.py: 将PCB_DATASET的json标准文件分拆成VOC格式下的单个xml标注文件
